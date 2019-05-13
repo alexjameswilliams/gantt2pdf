@@ -30,9 +30,12 @@ def output(str):
 # **************************************
 # ***************INPUT******************
 # **************************************
-csvFilePath = 'FILE_NAME.csv' 	#Relative File Path to csv file
-title = "TITLE NAME"			# Title
-author = "AUTHOR NAME"			# Author
+csvFilePath = 'FILE_NAME.csv' 			#Relative File Path to csv file
+title = "TITLE"							# Title
+author = "AUTHOR NAME"					# Author
+
+# **************************************
+# **************************************
 
 # Open csv file
 inputFile = open(csvFilePath, "rt")
