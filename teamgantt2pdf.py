@@ -32,6 +32,7 @@ def output(str):
 # **************************************
 csvFilePath = 'FILE_NAME.csv' 			#Relative File Path to csv file
 title = "TITLE"							# Title
+subtitle = "SUBTITLE"					# Subtitle
 author = "AUTHOR NAME"					# Author
 
 # **************************************
@@ -54,8 +55,7 @@ output("\\usepackage{fancyhdr}\n\n")
 
 # Documemt info
 output("\\title{" + title + "\\\\\n")
-output("\t\\large MSc by Research: Aerospace Engineering\\\\\n")
-output("\tWorkplan \\\\\n ")
+output("\t\\large " + subtitle + "\\\\\n")
 output("}\n")
 output("\\date{}\n")
 output("\\author{"+ author +"}\n\n")
